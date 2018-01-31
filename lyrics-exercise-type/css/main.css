@@ -28,12 +28,13 @@ hr {
     background-color: black;
 }
 .song-cover {
-    width: 350px;
+    width: 25%;
     float: left;
     height: 300px;
+    padding: 15px;
 }
 .song-info {
-    width: 300px;
+    width: 25%;
     float: left;
     height: 300px;
 }
@@ -54,9 +55,10 @@ hr {
 	font-size: 30px;
 }
 .song-video {
-	width: 500px;
-    float: left;
+	width: 35%;
+    float: right;
     height: 300px;
+    padding: 15px;
 }
 .clear {
     clear: both;
