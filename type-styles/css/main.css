@@ -2,8 +2,11 @@ html,body {
 	height: 100%;
 	font-size: 15px;
 }
-#sample-sentences li p {
+p {
 	font-size: 15px;
+}
+strong {
+	font-weight: 900;
 }
 #typeface, #sample-sentences {
 	padding: 15px;
@@ -33,26 +36,44 @@ tr:nth-child(6) {
 tr:hover {
 	background-color:#f5f5f5;
 }
-.new-style p {
-	font-size: 14px;
+.bold {
+	font-weight: bold;
 }
-.new-style .font-weight {
+.lighter {
 	font-weight: lighter;
-	padding-left: 20px;
 }
-.new-style .font-style {
+.italic {
 	font-style: italic;
-	padding-left: 20px;
 }
-.new-style .letter-spacing {
-	letter-spacing: 0.4em;
-	padding-left: 20px;
+.pos-em {
+	letter-spacing: 0.4em
 }
-.new-style .text-transform {
+.neg-em {
+	letter-spacing: -.04em
+}
+.uppercase {
 	text-transform: uppercase;
-	padding-left: 20px;
 }
-.new-style .text-decoration {
+.capitalize {
+	text-transform: capitalize;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.underline {
+	text-decoration: underline;
+}
+.line-through {
 	text-decoration: line-through;
-	padding-left: 20px;
+}
+.overline {
+	text-decoration: overline;
+}
+.value {
+	color: #0080ff;
+	font-size: 10px;
+    line-height: 1px;
+}
+.new-style p:not(:first-child) { 
+    padding-left: 20px;
 }
