@@ -1,0 +1,95 @@
+body {
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+p {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+}
+hr {
+    border: 0;
+    height: 1px;
+    width: 50%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.content {
+	padding: 50px 100px 50px 150px;
+}
+.content .title {
+	color: violet;
+	text-transform: uppercase;
+}
+.song {
+    width: 100%;
+    padding: 0;
+    background-color: black;
+}
+.song-cover {
+    width: 25%;
+    float: left;
+    height: 300px;
+    padding: 15px;
+}
+.song-info {
+    width: 25%;
+    float: left;
+    height: 300px;
+}
+.song-info h3 {
+	color: white;
+	font-weight: 800;
+}
+.song-info span {
+	color: #7d8fe8;
+}
+.song-info p {
+	color: #9a9a9a;
+}
+.song-info .song-title {
+	color: #ffff64;
+	font-weight: 900;
+	line-height: 1.125;
+	font-size: 30px;
+}
+.song-video {
+	width: 35%;
+    float: right;
+    height: 300px;
+    padding: 15px;
+}
+.clear {
+    clear: both;
+}
+.lyrics {
+	width: 400px;
+}
+.lyrics .intro {
+	text-transform: uppercase;
+	color: #9a9a9a;
+	font-size: 14px;
+	font-weight: 600;
+}
+.lyrics p span {
+    display: block;
+}
+.lyrics p span:hover {
+    background-color: yellow;
+}
+.transition {
+	font-weight: 100;
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: lowercase;
+}
+.lyric {
+	line-height: 1.7em;
+	font-weight: 500;
+	letter-spacing: normal;
+}
+
+
+
+
