@@ -1,0 +1,152 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+/*section1 */
+#section1 {
+	background-image: url(../images/house1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-top: 8px;
+	padding-bottom: 165px;
+	color: white;
+	text-shadow: 3px 3px black;
+}
+#section1 h1 {
+	margin-top: 155px;
+	font-size: 80px;
+	margin-bottom: 0;
+	text-align: center;
+}
+#section1 h3 {
+	margin-top: 14px;
+	font-size: 30px;
+	text-align: center;
+}
+/*section1 end*/
+
+/*section2*/
+#section2 {
+	background-color: #d3d3d3;
+}
+#section2 .s2 {
+	width: 960px;
+	margin-left: 150px;
+	padding-top: 35px;
+	padding-bottom: 55px;
+}
+#section2 .s2 h2 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-left: 21px;
+	margin-top: 0;
+	padding-bottom: 0;
+	text-align: center;
+}
+#section2 .s2 p {
+	font-size: 18px;
+	line-height: 26px;
+	margin-top: 16px;
+	margin: 0;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+#section2 .s2 img {
+	float: right;
+	padding: 4px 0px 20px 35px;
+}
+/*section2 end*/
+
+/*section3*/
+#section3 {
+	background-color: #f9f9f9;
+	height: 680px;
+}
+.s3 h2 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-top: 0;
+	padding-top: 13px;
+	padding-bottom: 0;
+	padding-left: 10px;
+	text-align: center;
+}
+.s3 {
+	width: 960px;
+	margin-left: 155px;
+	padding-top: 33px;
+	padding-bottom: 55px;
+}
+#mini {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+.mini_sec {
+	float: left;
+	display: block;
+	padding-top: 2px;
+	margin-bottom: 25px;
+	padding-left: 5px;
+}
+.mini_sec img {
+	float: left;
+	padding-right: 13px;
+}
+.mini_sec p {
+	font-size: 18px;
+	margin: 0;
+	line-height: 21px;
+}
+/*section3 end*/
+
+/*section4*/
+#section4 {
+	background-color: #d3d3d3;
+	height: 413px;
+}
+.s4 {
+	width: 960px;
+	padding-top: 40px;
+	padding-bottom: 55px;
+	padding-left: 155px;
+}
+.s4 h2 {
+	font-size: 40px;
+	font-weight: 700;
+	margin-top: 0;
+	padding-top: 13px;
+	padding-bottom: 0;
+	padding-left: 10px;
+	text-align: center;
+}
+.s4 p {
+	text-align: center;
+	font-size: 26px;
+	line-height: 35px;
+	padding-left: 10px;
+}
+h4 {
+	font-size: 21px;
+	margin-top: 1px;
+	margin-bottom: 7px;
+}
+/*section4 end*/
+
+/*section5*/
+#section5 {
+	background-color: #505050;
+	height: 102px;
+}
+.footer {
+	margin-left: 162px;
+	padding-top: 30px;
+	padding-bottom: 55px;
+	font-weight: 600;
+}
+.footer p {
+	float: left;
+	font-size: 18px;
+	margin-top: 7px;
+	color: white;
+}
+/*section5 end*/

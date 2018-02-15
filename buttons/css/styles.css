@@ -1,0 +1,401 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#main_content {
+	margin: 40px;
+}
+h1 {
+ 	font-size: 30px;
+ 	margin-bottom: 40px;
+}
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}	
+#coke {
+	width: 125px;
+	margin-top: 100px;
+}
+#coke:hover {
+	width: 150px;
+	margin-top: 95px;
+}
+
+#apple {
+	display: block;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 60px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	color: black;
+}
+#apple:hover {
+	border-radius: 50px;
+	background-color: #232f3e;
+	color: #fff;
+	
+}
+#ibm {
+	display: inline-block;
+	width: 100px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('../img/ibm-fill.svg') center no-repeat;
+	background-size: contain;
+}
+#ibm:hover {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('../img/ibm.png') center no-repeat;
+	background-size: contain;
+}
+#electrabike {
+	display: inline-block;
+	background: transparent url('../img/electrabike.png') center no-repeat;
+	background-size: contain;
+	width: 100px;
+	height: 120px;
+	margin-top: 70px;
+}
+#electrabike:hover {
+	display: inline-block;
+	background: transparent url('../img/electrabike1.png') center no-repeat;
+	background-size: contain;
+	width: 140px;
+	height: 120px;
+	margin-top: 70px;
+}
+#nerf img {
+	margin-top: 80px;
+	width: 120px;
+}
+#nerf img:hover {
+	transform: rotate(360deg);
+	transition: 0.5s;
+}
+#harley {
+	display: inline-block;
+	background: transparent url('../img/harley.png') center no-repeat;
+	background-size: contain;
+	width: 150px;
+	height: 120px;
+	margin-top: 70px;
+}
+#harley:hover {
+	display: inline-block;
+	background: transparent url('../img/harley1.png') center no-repeat;
+	background-size: contain;
+	width: 220px;
+	height: 120px;
+	margin-top: 70px;
+}
+#lyft {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #ff00bf;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#lyft:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+#ideo {
+	width: 250px;
+	margin-top: 80px;
+}
+#ideo:hover {
+	transform: skewX(-20deg);
+}
+#mk {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('../img/mk.jpg') center no-repeat;
+	background-size: contain;
+}
+#mk:hover {
+	display: inline-block;
+	margin-top: 40px;
+	width: 180px;
+	height: 180px;
+	background: transparent url('../img/mk1.jpg') center no-repeat;
+	background-size: contain;
+}
+#sardella {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	color: #0706c4;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	background-color: #fff;
+}
+#sardella:hover {
+	color: #fff;
+	background-color: teal;
+}	
+#samsung img {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+}
+#samsung img:hover {
+	box-shadow: 0px 2px 0px 0px rgba(50, 50, 50, 0.75);
+}
+#dimecitycycles img {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+}
+#cn img {
+	display: inline-block;
+	width: 120px;
+	height: 8	0px;
+	margin-top: 80px;
+}
+#fit {
+	display: inline-block;
+	width: 70px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('../img/fit.png') center no-repeat;
+	background-size: contain;
+}
+
+#fit:hover {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('../img/fit1.png') center no-repeat;
+	background-size: contain;
+}
+#color img {
+	width: 180px;
+	margin-top: 120px;
+}
+#color img:hover {
+	transform: skewX(30deg);
+}
+#ofa img {
+	width: 120px;
+	height: auto;
+	padding-top: 75px;
+}
+#ofa img:hover {
+	width: 140px;
+	padding-top: 70px;
+}
+#bissingers {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #952d44;
+	border-radius: 80%;
+}
+#nbc img {
+	margin-top: 80px;
+	width: 200px;
+}
+#nbc img:hover {
+	transform: rotate(-360deg);
+	transition: 0.5s;
+}
+#pottermore img {
+	margin-top: 100px;
+	width: 200px;
+}
+#pottermore img:hover {
+	margin-top: 100px;
+	width: 250px;
+}
+#nike img {
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+#hulk img {
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+	margin-top: 50px;
+}
+#garden {
+	display: inline-block;
+	margin-top: 100px;
+	padding: 8px 16px;
+	color: gold;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	background-color: grey;
+	border-radius: 50%;
+}
+#garden:hover {
+	color: gold;
+	font-weight: bold;
+	
+}
+a#moo {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	color: #00965e;
+	text-align: center;
+	font-size: 60px;
+}
+a#moo:hover {
+	background-color: lightgrey;
+	border-radius: 50px;
+}
+#kitten {
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	margin-top: 70px;
+	background: transparent url('../img/kitten.png') center no-repeat;
+	background-size: contain;
+}
+#kitten:hover {
+	display: inline-block;
+	margin-top: 40px;
+	width: 180px;
+	height: 180px;
+	background: transparent url('../img/boom.jpeg') center no-repeat;
+	background-size: contain;
+}
+#tesla img {
+	width: 150px;
+	margin-top: 120px;
+}
+#tesla img:hover {
+	width: 200px;
+	margin-top: 120px;
+}

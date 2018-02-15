@@ -1,0 +1,50 @@
+html {
+	font-family: 'Archivo Narrow', sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/*INTRO*/
+#intro {
+	height: 490px;
+	background-image: url('../images/house1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#intro div {
+	text-align: center;
+	width: 100%;
+	color: white;
+	padding-top: 150px;
+}
+#intro h1 {
+	font-size: 85px;
+	font-weight: bold;
+	margin: 0;
+}
+#intro h3 {
+	font-size: 28px;
+}
+/*INTRO END*/
+
+/*SECOND SECTION*/
+#section1 {
+	padding-left: 150px;
+	padding-right: 150px;
+	background: #d3d3d3;
+	height: 700px;
+}
+#section1 h2 {
+	font-size: 42px;
+	text-align: center;
+	margin: 0;
+	padding-top: 35px;
+}
+#section1 img {
+	float: right;
+	display: inline-block;
+	padding: 25px 0 10px 25px;
+}
+#section1 p {
+	line-height: 1.6rem;
+}
