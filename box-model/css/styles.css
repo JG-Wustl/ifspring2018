@@ -1,6 +1,5 @@
 body {
 	font-family: 'Archivo Narrow', sans-serif;
-	width: 100%;
 }
 /*section1 */
 #section1 {
@@ -28,12 +27,10 @@ body {
 /*section2*/
 #section2 {
 	background-color: #d3d3d3;
-	padding-left: 12%;
-	padding-right: 12%;
 }
 #section2 .s2 {
-	width: 100%;
-
+	width: 960px;
+	margin-left: 150px;
 	padding-top: 35px;
 	padding-bottom: 55px;
 }
@@ -63,8 +60,6 @@ body {
 #section3 {
 	background-color: #f9f9f9;
 	height: 680px;
-	padding-left: 12%;
-	padding-right: 12%;
 }
 .s3 h2 {
 	font-size: 40px;
@@ -76,7 +71,8 @@ body {
 	text-align: center;
 }
 .s3 {
-	width: 100%;
+	width: 960px;
+	margin-left: 155px;
 	padding-top: 33px;
 	padding-bottom: 55px;
 }
@@ -106,12 +102,13 @@ body {
 /*section4*/
 #section4 {
 	background-color: #d3d3d3;
-	padding-left: 12%;
-	padding-right: 12%;
+	height: 413px;
 }
 .s4 {
+	width: 960px;
 	padding-top: 40px;
 	padding-bottom: 55px;
+	padding-left: 155px;
 }
 .s4 h2 {
 	font-size: 40px;
@@ -138,7 +135,7 @@ h4 {
 /*section5*/
 #section5 {
 	background-color: #505050;
-	height: 122px;
+	height: 102px;
 }
 .footer {
 	margin-left: 162px;
