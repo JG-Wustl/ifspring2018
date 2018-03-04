@@ -43,8 +43,8 @@ hr {
 }*/
 .social {
 	position: absolute;
-    top: 450px;
-    right: 450px;
+    top: 100%;
+    right: 45%;
 }
 .social-media {
 	float: left;
@@ -53,12 +53,12 @@ hr {
     text-decoration: none;
 }
 .social-media img {
-	height: 30px;
-	width: 30px;
-}
-.social-media img:hover {
 	height: 40px;
 	width: 40px;
+}
+.social-media img:hover {
+	height: 50px;
+	width: 50px;
 }
 .row:after {
     content: "";
@@ -67,19 +67,20 @@ hr {
 }
 #lyrics {
 	margin: auto;
-	padding: 0px 100px 50px 150px;
+	padding: 150px 0px 50px 150px;
 }
 .lyrics {
-	width: 400px;
+	width: 500px;
 }
 .lyrics .intro {
 	text-transform: uppercase;
 	color: #9a9a9a;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 600;
 }
 .lyrics div span {
     display: block;
+    font-size: 18px;
 }
 .lyrics .tooltip span:hover {
     background-color: red;
@@ -107,14 +108,14 @@ hr {
     width: 250px;
     background-color: grey;
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 15px;
     border-radius: 6px;
     padding: 10px;
     position: absolute;
     z-index: 1;
     top: -50px;
-    left: 400px; 
+    left: 500px; 
 }
 .tooltipimg {
 	display: block;
