@@ -1,0 +1,160 @@
+body {
+	width: 100%;
+	height: 100%;
+	background: black;
+	color: white;
+	padding: 0px 20px 0px 20px;
+	font-family: 'Oxygen', sans-serif;
+}
+hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, white, rgba(0, 0, 0, 0.75), white);
+    margin-top: 50px;
+}
+a, a:visited {
+	color: white; 
+}
+#main {
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+#main .col {
+    float: left;
+    width: 50%;
+    height: 300px; 
+}
+#main .col .drake {
+	height: auto;
+	width: 80%;
+	text-align: right;
+}
+#main .col .title {
+	width: 50%;
+	margin-top: 30%;
+	margin-left: 20%;
+}
+#main .col .prayer {
+	margin-left: 35%;
+}
+/*#main .col h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-top: 50%;
+}*/
+.social {
+	position: absolute;
+    top: 100%;
+    right: 45%;
+}
+.social-media {
+	float: left;
+    display: inline;
+    padding: 10px;
+    text-decoration: none;
+}
+.social-media img {
+	height: 40px;
+	width: 40px;
+	opacity: 0.6;
+}
+.social-media img:hover {
+	height: 50px;
+	width: 50px;
+	opacity: 1;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#lyrics {
+	margin: auto;
+	padding: 150px 0px 50px 250px;
+}
+.lyrics {
+	width: 500px;
+}
+.lyrics .intro {
+	text-transform: uppercase;
+	color: #9a9a9a;
+	font-size: 15px;
+	font-weight: 600;
+}
+.lyrics div span {
+    display: block;
+    font-size: 18px;
+}
+.lyrics .tooltip span:hover {
+    background-color: red;
+}
+.transition {
+	font-weight: 100;
+	text-decoration: underline;
+	font-style: italic;
+	text-transform: uppercase;
+	padding-top: 15px;
+	font-size: 12px;
+}
+.lyric {
+	line-height: 1.7em;
+	font-weight: 500;
+	letter-spacing: normal;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted grey;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #383838;
+    color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    top: -90px;
+    left: 500px;
+	border: 4px solid #202020; 
+}
+.tooltiptext:after, .tooltiptext:before {
+	right: 100%;
+	top: 100px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.tooltiptext:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: #383838;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.tooltiptext:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-right-color: #202020;
+	border-width: 36px;
+	margin-top: -36px;
+}
+.tooltipimg {
+	display: block;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.logo {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
