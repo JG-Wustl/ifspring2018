@@ -121,7 +121,7 @@ p {
 	.quote1 {
 		right: 7%;
 		bottom: 7%;
-		font-size: .8em;
+		font-size: 1.2em;
 		width: 60%;
 	}
 	.card1 {
@@ -129,9 +129,8 @@ p {
 		background-image: url("../img/card1-m.png");
 	}
 	.quote2 {
-		bottom: 10%;
-		left: 10%;
-		font-size: .8em;
+		font-size: 1.2em;
+		max-width: 70%;
 	}
 	.card2 {
 		background-position: center;
@@ -144,6 +143,6 @@ p {
 		right: 10%;
 		bottom: 40%;
 		max-width: 40%;
-		font-size: .8em;
+		font-size: 1.2em;
 	}
 }
