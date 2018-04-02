@@ -7,6 +7,10 @@ li {
 	vertical-align: text-top;
 }
 
+ul {
+	padding-left: 0px;
+}
+
 section.fixed-size-grid-items {
 	width: 100%;
 }
@@ -19,9 +23,7 @@ section.fixed-size-grid-items {
 	list-style-type: none;
 	display: inline-block;
 }
-#fixed-size-grid-items ul {
-	padding-left: 0px;
-}
+
 #fixed-size-grid-items:after {
     content: "";
     display: table;
