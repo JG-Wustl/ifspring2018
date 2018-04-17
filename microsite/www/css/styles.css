@@ -1,0 +1,243 @@
+/*GENERAL*/
+html, body {
+	font-family: 'PT Sans', sans-serif;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/background.png');
+}
+.divider {
+	margin-left: 20%;
+}
+a:hover {
+    color: #087208;
+}
+
+/*NAV BAR*/
+.navbar-toggler {
+	font-size: 45px;
+	text-align: right;
+}
+.navbar-side {
+	height: 100%;
+	width: 25%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 0;
+	list-style: none;
+	border-left: 2px solid #ccc;
+	background-color: #696969;
+	overflow-y: scroll;
+	z-index: 1000;
+}
+.navbar-side-item {
+	padding: 1.5rem 0;
+	margin: 0;
+	border-bottom: 2px solid #ccc;
+	height: 5rem;
+}
+.navbar-side-item a:hover {
+	color: #087208;
+}
+.side-link {
+	padding-left: 2rem;
+	font-size: 30px;
+	font-weight: 800;
+	color: white;
+}
+.navbar-side {
+	-webkit-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	transform: translateX(100%);
+	-webkit-transition: 300ms ease;
+	transition: 300ms ease;
+}
+ .reveal {
+	-webkit-transform: translateX(0%);
+	-ms-transform: translateX(0%);
+	transform: translateX(0%);
+	-webkit-transition: 300ms ease;
+	transition: 300ms ease;
+}
+.overlay {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+	background-color: #ccc;
+	opacity: 0.6;
+	z-index: 990;
+}
+.navbar-side {
+	@include media-breakpoint-up(xs) { width: 85%; } // Small
+	@include media-breakpoint-up(sm) { width: 50%; } // Medium
+	@include media-breakpoint-up(md) { width: 25%; } // Large
+}
+nav {
+	background-color: grey;
+}
+.logo {
+	width: 100px;
+	height: auto;
+	position: absolute;
+	left: 45%;
+	top: 15px;
+}
+#banner {
+	position: relative;
+}
+#banner img {
+	width: 100%;
+	height: 125px;
+}
+#banner p {
+    position: absolute;
+    bottom: -15px;
+    left: 20px;
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+}
+/*NAV BAR END*/
+
+/*LANDING*/
+#landing a {
+	padding: 0;
+	display: block;
+}
+#landing a:hover {
+	border-color: black;
+}
+#landing .row {
+	margin-right: 0;
+	margin-left: 0;
+}
+#landing .landing-selector {
+	height: 90vh;
+	width: 100%;
+}
+.tint {
+	background: rgba(0,0,0,.7);
+}
+.select1 {
+	background-image: url(../img/plot.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+	background-blend-mode: overlay;
+}
+.select2 {
+	background-image: url(../img/characters.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+}
+.select3 {
+	background-image: url(../img/influences.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+}
+.select4 {
+	background-image: url(../img/adaptation.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+}
+.select5 {
+	background-image: url(../img/reception.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+}
+.select6 {
+	background-image: url(../img/sequel.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+}
+.select1:hover {
+	background-image: url(../img/plot.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0))
+}
+.select2:hover {
+	background-image: url(../img/characters.png),linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.select3:hover {
+	background-image: url(../img/influences.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.select4:hover {
+	background-image: url(../img/adaptation.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.select5:hover {
+	background-image: url(../img/reception.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.select6:hover {
+	background-image: url(../img/sequel.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+}
+.rotate {
+	transform: rotate(-90deg);
+	font-weight: 900;
+	font-size: 60px;
+	color: white;
+	position: relative;
+	top: 445px;
+	left: 75px;
+}
+/*LANDING END*/
+
+/*PLOT*/
+#plot_main {
+	margin-top: 50px;
+}
+.head_nav a {
+	color: black;
+}
+.head_nav ul li {
+	display: inline;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.plot_img {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+/*PLOT END*/
+
+/*CHARACTERS*/
+.characters {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#characters_main {
+	margin-top: 50px;
+}
+/*CHARACTERS END*/
+
+
+/*INFLUENCES*/
+#influences_main {
+	margin-top: 50px;
+}
+.influences img {
+	width: 100%;
+}
+.influences .row {
+	margin-top: 25px;
+}
+.influences_modal img {
+	width: 250px;
+	height: 250px;
+}
+/*INFLUENCES END*/
+
+/*ADAPTATION*/
+#adaptation_main {
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/*ADAPTATION END*/
+/*RECEPTION*/
+#reception_main {
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/*RECEPTION END*/
+/*SEQUEL*/
+#sequel_main {
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+/*SEQUEL END*/
