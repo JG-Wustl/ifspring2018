@@ -13,6 +13,9 @@ a:hover {
 }
 
 /*NAV BAR*/
+.navbar {
+	padding: 0 1rem;
+}
 .navbar-toggler {
 	font-size: 45px;
 	text-align: right;
@@ -26,7 +29,7 @@ a:hover {
 	padding: 0;
 	list-style: none;
 	border-left: 2px solid #ccc;
-	background-color: #696969;
+	background: linear-gradient(black, grey);
 	overflow-y: scroll;
 	z-index: 1000;
 }
@@ -79,12 +82,12 @@ a:hover {
 nav {
 	background-color: grey;
 }
+.margin-a {
+	margin: auto;
+}
 .logo {
-	width: 100px;
+	width: 200px;
 	height: auto;
-	position: absolute;
-	left: 45%;
-	top: 15px;
 }
 #banner {
 	position: relative;
@@ -100,6 +103,7 @@ nav {
     font-weight: 900;
     font-size: 60px;
     color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 /*NAV BAR END*/
 
@@ -118,6 +122,7 @@ nav {
 #landing .landing-selector {
 	height: 90vh;
 	width: 100%;
+	position: relative;
 }
 .tint {
 	background: rgba(0,0,0,.7);
@@ -125,29 +130,35 @@ nav {
 .select1 {
 	background-image: url(../img/plot.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
 	background-blend-mode: overlay;
+	background-size: 100% 100%;
 }
 .select2 {
 	background-image: url(../img/characters.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
     background-blend-mode: overlay;
+    background-size: 100% 100%;
 }
 .select3 {
 	background-image: url(../img/influences.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
     background-blend-mode: overlay;
+    background-size: 100% 100%;
 }
 .select4 {
 	background-image: url(../img/adaptation.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
     background-blend-mode: overlay;
+    background-size: 100% 100%;
 }
 .select5 {
 	background-image: url(../img/reception.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
     background-blend-mode: overlay;
+    background-size: 100% 100%;
 }
 .select6 {
 	background-image: url(../img/sequel.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
     background-blend-mode: overlay;
+    background-size: 100% 100%;
 }
 .select1:hover {
-	background-image: url(../img/plot.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0))
+	background-image: url(../img/plot.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
 }
 .select2:hover {
 	background-image: url(../img/characters.png),linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
@@ -164,20 +175,38 @@ nav {
 .select6:hover {
 	background-image: url(../img/sequel.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
 }
-.rotate {
+.cover span{
 	transform: rotate(-90deg);
 	font-weight: 900;
 	font-size: 60px;
-	color: white;
-	position: relative;
-	top: 445px;
-	left: 75px;
+    color: white;
+    position: absolute;
+    bottom: 12%;
+    right: 0;
+    width: 90%;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+.cover {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-decoration: none;
+	z-index: 20;
+}
+.cover:hover span {
+	color: #087208;
+	text-decoration: underline;
 }
 /*LANDING END*/
 
 /*PLOT*/
 #plot_main {
 	margin-top: 50px;
+	margin-left: 10%;
+    margin-right: 10%;
 }
 .head_nav a {
 	color: black;
@@ -186,9 +215,9 @@ nav {
 	display: inline;
 	text-transform: uppercase;
 	font-weight: bold;
+	text-decoration: underline;
 }
 .plot_img {
-	margin-left: 15px;
 	margin-right: 15px;
 }
 /*PLOT END*/
@@ -218,6 +247,23 @@ nav {
 	width: 250px;
 	height: 250px;
 }
+.influences .row div {
+	padding: 10px;
+}
+.content {
+	position: relative;
+}
+.bottom-center {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
 /*INFLUENCES END*/
 
 /*ADAPTATION*/
@@ -241,3 +287,18 @@ nav {
 	margin-right: 10%;
 }
 /*SEQUEL END*/
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 80px; 
+  line-height: 80px; 
+  background-color: grey;
+  margin-top: 50px;
+}
+
+@media (min-width: 576px) {
+	.modal-dialog {
+	    max-width: 700px;
+	    margin: 10% auto;
+	}
+}
