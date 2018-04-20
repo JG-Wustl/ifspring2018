@@ -302,3 +302,72 @@ nav {
 	    margin: 10% auto;
 	}
 }
+
+@media (max-width: 800px) {
+	.navbar-side {
+		width: 50%;
+	}
+}
+
+@media (max-width: 400px) {
+	.navbar-side {
+		width: 70%;
+	}
+}
+
+@media (max-width: 992px) {
+	.select1 {
+		background-image: url(../img/mobile/av1.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+		height: 25%;
+	}
+	.select2 {
+		background-image: url(../img/mobile/av2.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+		height: 25%;
+	}
+	.select3 {
+		background-image: url(../img/mobile/av3.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+		height: 25%;
+	}
+	.select4 {
+		background-image: url(../img/mobile/av4.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+		height: 25%;
+	}
+	.select5 {
+		background-image: url(../img/mobile/av5.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+		height: 25%;
+	}
+	.select6 {
+		background-image: url(../img/mobile/av6.png), linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+		height: 25%;
+	}
+	.select1:hover {
+		background-image: url(../img/mobile/av1.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+	}
+	.select2:hover {
+		background-image: url(../img/mobile/av2.png),linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+	}
+	.select3:hover {
+		background-image: url(../img/mobile/av3.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+	}
+	.select4:hover {
+		background-image: url(../img/mobile/av4.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+	}
+	.select5:hover {
+		background-image: url(../img/mobile/av5.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+	}
+	.select6:hover {
+		background-image: url(../img/mobile/av6.png), linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0));
+	}
+	#landing .landing-selector {
+		height: 30vh;
+		width: 100%;
+		position: relative;
+	}
+	.cover span{
+		transform: rotate(0deg);
+	}
+	#landing .col-md-6 {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+}
